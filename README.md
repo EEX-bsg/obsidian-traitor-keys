@@ -1,2 +1,1 @@
-# obsidian-traitor-keys
-# obsidian-traitor-keys
+# Traitor Keys – Emacs Ctrl in Vim
