@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-traitor-keys",
+  "name": "Traitor Keys – Emacs Ctrl in Vim",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Inject Emacs-style Ctrl-f/b/n/p/a/e navigation into Obsidian Vim insert/visual modes.",
+  "author": "",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}
