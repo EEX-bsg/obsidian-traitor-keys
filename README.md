@@ -37,3 +37,12 @@ If `Ctrl-f` still triggers search or otherwise misbehaves:
 - Check for conflicting hotkeys or mappings from other plugins (e.g., Vimrc Support) that may override the keys.
 
 To resolve conflicts with Vimrc Support or similar plugins, remove or adjust any `Ctrl-f/b/n/p/a/e` mappings in your `.obsidian.vimrc` or set up priority to your preference.
+
+## Development
+
+Use either npm or Yarn to install dependencies and build the plugin bundle:
+
+- `npm install` or `yarn install`
+- `npm run build` or `yarn build`
+
+Yarn installs are configured to use the `node_modules` linker for compatibility with Obsidian's build tooling.
