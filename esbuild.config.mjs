@@ -11,7 +11,7 @@ const context = await esbuild.context({
   format: "cjs",
   target: "es2018",
   platform: "browser",
-  outfile: "main.js",
+  outfile: "dist/main.js",
   external: ["obsidian"],
   banner,
   sourcemap: process.argv.includes("--production") ? false : "inline",

@@ -4,5 +4,6 @@ node_modules/
 .pnp.loader.mjs
 main.js
 main.js.map
+dist/
 .DS_Store
 .vscode/

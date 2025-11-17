@@ -45,4 +45,6 @@ Use either npm or Yarn to install dependencies and build the plugin bundle:
 - `npm install` or `yarn install`
 - `npm run build` or `yarn build`
 
+For release artifacts, run `yarn generate` to produce a production bundle in `dist/` along with `manifest.json` and `versions.json` ready to copy into your vault's `.obsidian/plugins/obsidian-traitor-keys/` directory.
+
 Yarn installs are configured to use the `node_modules` linker for compatibility with Obsidian's build tooling.
